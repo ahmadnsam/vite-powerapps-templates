@@ -1,0 +1,19 @@
+{
+  "name": "template-multie-bundled-files",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "commands": "vite build --config vite.config.command.ts",
+    "main": "vite build --config vite.config.ts",
+    "yourcustomentry": "vite build --config vite.config.customconfig.ts",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.8",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0"
+  }
+}
