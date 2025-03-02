@@ -31,6 +31,7 @@ Before using these templates, ensure you have the following installed:
 ## 1️⃣ Basic - Single Bundled File
 
 ✅ One bundled JavaScript file for all scripts (simplifies deployment).
+
 ✅ Ideal for small projects or quick setups.
 
 🛠 Build using:
@@ -42,6 +43,7 @@ vite build
 ## 2️⃣ Basic - Multiple Bundled Files
 
 ✅ Separates scripts into multiple bundled files for better organization.
+
 ✅ Useful for large projects or modular setups.
 
 🛠 Build using default entry point:
@@ -67,6 +69,9 @@ npm run yourcustomconfig
 ## 🚀 Advanced templates with:
 
 ✅ Unit testing with Vitest
+
 ✅ Linting & best practices enforcement
+
 ✅ CI/CD support for seamless deployment
+
 ✅ Custom utilities for Model-Driven Apps development
