@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/xrm": "^9.0.83",
     "typescript": "~5.7.2",
     "vite": "^6.2.0"
   }
